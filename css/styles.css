@@ -1,0 +1,24 @@
+html {
+    position: absolute;
+    align-content: center;
+    background-color: white;
+    font-size: small;
+    
+}
+
+body {
+    font-size: small;
+    background: #ffffff;
+    color: #222;
+    display: block;
+
+}
+html, body {
+    font-family: arial, sans-serif;
+
+}
+
+#googlelogo {
+    height: 92px;
+    width: 272px;
+}
