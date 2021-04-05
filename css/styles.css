@@ -1,24 +1,363 @@
-html {
-    position: absolute;
-    align-content: center;
-    background-color: white;
-    font-size: small;
+
+body, input, button {
+    font-size: 14px;
+    font-family: arial,sans-serif;
+    color: #222;
+    border: none;
+    outline: none;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    min-width: 400px;
+    height: 100%;
+}
+
+#BoxSize {
+    font-size: 14px;
+    font-family: arial,sans-serif;
+    color: transparent;
+    white-space: pre;
+    display: flex;
+    flex-direction: row;
+    align-content: flex-start;
+    height: 36px;
+    width: 484px;
+  
+        background-color: transparent;
+        border: none;
+        margin: 0;
+        margin-top: 0px;
+        padding: 0;
+        color: rgba(0,0,0,.87);
+        word-wrap: break-word;
+        outline: none;
+     
     
 }
 
-body {
+
+.serachIcon {
+   display: flex;
+   flex-direction: column;
+   width: 50px;
+   height: 44px;
+
+}
+
+.serachIconImagesize {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    width: 20px;
+    height: 20px;
+    margin: auto;
+    color: rgba(223, 225, 229, 0);
+    opacity: 0.4;
+ }
+ 
+
+a {
+    color: #5f6368;
+    text-decoration: red;
+
+}
+
+a:hover {
+    text-decoration: underline;
+
+}
+
+.SDkEP:hover {
+    background-color: #fff;
+    box-shadow: 0 1px 6px rgba(32,33,36,.28);
+    border-color: rgba(223,225,229,0);
+}
+
+.o3j99 {
+    flex-shrink: 0;
+    box-sizing: border-box;
+}
+
+.LLD4me {
+    min-height: 150px;
+    max-height: 290px;
+    height: calc(100% - 560px);
+}
+
+.LS8OJ {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.parent {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding: 6px;
+    
+}
+
+.myimage {
+    border: 1px gray;
+    border-radius: 50%;
+    text-align: center;
+}
+
+.gmail {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    box-sizing: border-box;
+    height: 48px;
+    line-height: normal;
+    padding: 0 4px;
+    gap: 10px;
+    flex-wrap: nowrap;
+
+
+}
+
+.gapps {
+    color: #000;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
+    outline: none;
+    vertical-align: middle;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    height: 24px;
+    width: 24px;
+    opacity: 0.6;
+}
+
+.LX3sZb {
+    display:inline-block;
+    flex-grow:1;
+}  
+
+
+.googleImage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1 0 auto;
+}
+
+.searchDiv {
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex: 1 0 auto;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 327px;
+    text-align: center;
+
+}
+
+
+.insidelanguages {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
     font-size: small;
-    background: #ffffff;
-    color: #222;
-    display: block;
-
-}
-html, body {
-    font-family: arial, sans-serif;
-
+    margin-bottom: 24px;
+   
 }
 
-#googlelogo {
-    height: 92px;
-    width: 272px;
+.footer {
+    font-size: 14px;
+    align-content:flex-end;
+    background:#f2f2f2;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas:
+  "SouthAfrica"
+  "AboutSection"
+    ;
 }
+
+.southAfricaSection { 
+    grid-area: SouthAfrica;
+    justify-content: center;
+    border-bottom: 1px solid #dadce0;
+    font-size: 15px;
+    color: rgba(0,0,0,.54);
+    padding: 15px 30px;
+   
+}
+
+.aboutSection {
+   grid-area: AboutSection;
+   display: grid;
+   grid-template-columns: 33% 34% 33%;
+   grid-template-rows: 1fr;
+   grid-template-areas:
+   "Leftfooter Carbon Rightfooter"
+;
+}
+
+.leftfooter {
+    grid-area: Leftfooter;
+    padding: 15px 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    gap: 15px;
+   
+   
+}
+
+.carbonSection {
+  grid-area: Carbon;
+  padding: 15px 30px;
+  align-content: center;
+  text-align: center;
+  flex-wrap: wrap;
+ 
+
+
+}
+
+.rightfooter { 
+    grid-area: Rightfooter;
+    padding: 15px 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.rSk4se {
+    max-height: 92px;
+}
+
+.k1zIA {
+    height: 100%;
+    margin-top: auto;
+}
+
+
+.vcVZ7d {
+    text-align: center;
+    font-family: arial,sans-serif;
+    line-height: normal;
+    padding-right: 15px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    
+}
+
+.textColor {
+    color: #5f6368;
+    opacity: 1;
+}
+
+.om7nvf {
+    padding: 55px;
+}
+
+.ikrT4e {
+    max-height: 160px;
+}
+
+.material-icons-outlined {
+    color: #e8b6 ;
+}
+
+.gLFyf {
+    background-color: transparent;
+    border: none;
+    margin: 0;
+    margin-top: 0px;
+    padding: 0;
+    color: rgba(0,0,0,.87);
+    word-wrap: break-word;
+    outline: none;
+    display: flex;
+    flex: 100%;
+    margin-top: -37px;
+    height: 34px;
+    font-size: 16px;
+}
+
+.SDkEP {
+    background: #fff;
+    display: flex;
+    border: 1px solid #dfe1e5;
+    box-shadow: none;
+    border-radius: 24px;
+    height: 44px;
+    margin: 0 auto;
+    width: auto;
+    width: 582px;
+    flex-direction: row;
+    align-items: center;
+    flex: 1 1 auto;
+ 
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-content: flex-end;
+}
+
+.centre {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 25px;
+    padding-top: 20px;
+}
+
+
+.SmallBox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0px 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+}
+
+.SmallBox:hover {
+    box-shadow: 0 1px 1px rgba(0,0,0,.1);
+    background-color: #f8f9fa;
+    border: 1px solid #dadce0;
+    color: #202124;
+}
+
+
